@@ -21,7 +21,7 @@ jobs:
       - name: Set up Node.js version
         uses: actions/setup-node@v3
         with:
-          node-version: '24.x'
+          node-version: '20.x'
 
       - name: npm install, build, and test
         run: |
@@ -52,4 +52,4 @@ jobs:
           app-name: 'Ghibli-Vuk-Rinor'
           slot-name: 'Production'
           package: .
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_31A3354AF4E74145B6B856BBE486B23F }}
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_0B97C1766E4947D78D3C3B3E6B96B8D4 }}
